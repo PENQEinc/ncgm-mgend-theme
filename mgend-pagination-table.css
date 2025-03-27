@@ -1,4 +1,10 @@
 @charset "UTF-8";
+
+.clinical-significance {
+  display: flex;
+  align-items: center;
+}
+
 .clinical-significance:before {
     content: attr(data-value);
     width: 18px;
@@ -6,11 +12,11 @@
     height: 18px;
     display: inline-block;
     margin-right: 3px;
-    border-radius: 9px;
+    border-radius: 10px;
     border-width: 1px;
     border-style: solid;
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     vertical-align: top;
 }
